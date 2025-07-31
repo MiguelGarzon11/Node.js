@@ -1,0 +1,12 @@
+npm install                # Instala todo lo definido en package.json
+npm uninstall paquete      # Elimina un paquete
+npm update                 # Actualiza paquetes
+npm audit                  # Revisa vulnerabilidades
+npm audit fix              # Intenta corregirlas automáticamente
+npm list                   # Muestra las dependencias instaladas
+
+
+
+Al instalar, puedes controlar la versión:
+
+npm install express@4.18.2
