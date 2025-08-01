@@ -26,4 +26,19 @@ fs.writeFile(filePath, 'Hola Miguel desde Node.js\n', (err) => {
             });
         });
     });
-});
+}); 
+
+// Crear carpetas
+// fs.mkdir() → crea carpetas.
+// { recursive: true } → permite crear múltiples niveles de carpetas.
+
+fs.mkdir('nueva/carpeta', { recursive: true }, (err) => {});
+
+
+// Verificar existencia
+// fs.existsSync() → comprueba si un archivo o carpeta existe.
+
+if (fs.existsSync('archivo.txt')) {
+  console.log('Existe');
+}
+
