@@ -1,0 +1,20 @@
+{
+  "name": "api-sendemail",
+  "version": "1.0.0",
+  "description": "APi que envia email directamente a mi correo",
+  "keywords": [
+    "myEmail",
+    "myPass"
+  ],
+  "license": "ISC",
+  "author": "Miguel Angel Garzon",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test ",
+    "dev": "nodemon index.cjs"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
